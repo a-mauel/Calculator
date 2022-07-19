@@ -4,67 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./calculator fav.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Calculator App</title>
+    <title>Calculator</title>
 </head>
 <body>
     <main>
         <!--Claculator starts-->
         <h1>Calculator</h1>
-        <div class="conatiner">
+        <div class="container">
             <div>
-                <input type="text" name="text" id="textScreen">
+                <input type="text" name="text" id="textScreen" class="text">
             </div>
-            <div class="item 1">
-                <button>1</button>
-            </div>
-            <div class="item 2">
-                <button value="2">2</button>
-            </div>
-            <div class="item 3">
-                <button>3</button>
-            </div>
-            <div class="item 4">
-                <button>4</button>
-            </div>
-            <div class="item 5">
-                <button>5</button>
-            </div>
-            <div class="item 6">
-                <button>6</button>
-            </div>
-            <div class="item 7">
-                <button>7</button>
-            </div>
-            <div class="item 8">
-                <button>8</button>
-            </div>
-            <div class="item 9">
-                <button>9</button>
-            </div>
-            <div class="item 0">
-                <button>0</button>
-            </div>
-            <div class="item .">
-                <button>.</button>
-            </div>
-            <div class="item +">
-                <button>+</button>
-            </div>
-            <div class="item -">
-                <button>-</button>
-            </div>
-            <div class="item /">
-                <button>/</button>
-            </div>
-            <div class="item *">
-                <button>*</button>
-            </div>
-            <div class="item =">
-                <button>=</button>
-            </div>
-            <div class="item clr">
-                <button>Clr</button>
+            <div class="container2">
+                <div class="item-1" onclick="numb('1')"><span>1</span></div>
+                <div class="item-2" onclick="numb('2')"><span>2</span></div>
+                <div class="item-3" onclick="numb('3')"><span>3</span></div>
+                <div class="item-4" onclick="numb('4')"><span>4</span></div>
+                <div class="item-5" onclick="numb('5')"><span>5</span></div>
+                <div class="item-6" onclick="numb('6')"><span>6</span></div>
+                <div class="item-7" onclick="numb('7')"><span>7</span></div>
+                <div class="item-8" onclick="numb('8')"><span>8</span></div>
+                <div class="item-9" onclick="numb('9')"><span>9</span></div>
+                <div class="item-0" onclick="numb('0')"><span>0</span></div>
+                <div class="item-dot" onclick="numb('.')"><span>.</span></div>
+                <div class="item-plus" onclick="numb('+')"><span>+</span></div>
+                <div class="item-subst" onclick="numb('-')"><span>-</span></div>
+                <div class="item-div" onclick="numb('/')"><span>/</span></div>
+                <div class="item-multi" onclick="numb('*')"><span>*</span></div>
+                <div class="item-equal" onclick="result()"><span>=</span></div>
+                <div class="item-clr" onclick="Clr()"><span>CLR</span></div>
             </div>
         </div>
         <!--Calculator ends-->
