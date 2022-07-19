@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Inconsolata', monospace;
+    user-select: none;
 }
 
 body {
@@ -72,6 +73,7 @@ span:hover {
     background: rgb(0, 60, 100);
     box-shadow: 2.5px 2.5px 3px #000000 , 
     -1.5px 0px 2px #000000;
+    user-select: none;
 }
 
 .item-1 {
