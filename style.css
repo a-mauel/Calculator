@@ -29,6 +29,7 @@ main {
     background: #e0e0e0;
     box-shadow: 3px 3px 20px #969595,
     -5px -5px 10px #9c9c9c;
+    user-select: none;
 }
 
 input[type="text"] {
@@ -49,7 +50,7 @@ input[type="text"] {
         'd e f div'
         'a b c multi'
         'k j l equal'
-        'clr clr clr clr';
+        '... clr clr ...';
     gap: 30px 20px;
     padding: 10px;
 }
